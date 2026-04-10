@@ -6,18 +6,18 @@
 
 ## 📂 Projects List
 
-| Project No. | Name        | Description                  |
-|------------|------------|------------------------------|
-| 1          | project1   | Description of project 1     |
-| 2          | project2   | Description of project 2     |
-| 3          | project3   | Description of project 3     |
-| 4          | project4   | Description of project 4     |
-| 5          | project5   | Description of project 5     |
-| 6          | project6   | Description of project 6     |
-| 7          | project7   | Description of project 7     |
-| 8          | project8   | Description of project 8     |
-| 9          | project9   | Description of project 9     |
-| 10         | project10  | Description of project 10    |
+| Project No.| Name        | Description                                                 |
+|------------|-------------|-------------------------------------------------------------|
+| 1          | project1   | ✨ Random Quote Generator - Display inspirational quotes    |
+| 2          | project2   |🎨 Background Color Changer - Interactive color switcher     |
+| 3          | project3   |💕 Love Calculator - Fun relationship compatibility checker  |
+| 4          | project4   |💰 Income Tax Calculator - Calculate taxes instantly         |
+| 5          | project5   | ⏰ Digital Clock - Real-time clock display                  |
+| 6          | project6   |⏲️ Countdown Timer - Event countdown tool                    |
+| 7          | project7   |🌟 job Application form - User information                   |
+| 8          | project8   |🖱️ Clicker Game - Interactive click counter                  |
+| 9          | project9   |✅ Pocket Diary - Task management app                        |
+| 10         | project10  |📝 Quiz App - Interactive quiz with scoring                  |          
 
 ---
 
