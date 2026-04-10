@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Job Application Form</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+<div class="container">
+  <h2>Job Application Form</h2>
+
+  <form onsubmit="return validateForm()">
+
+    <input type="text" id="name" placeholder="Full Name" required>
+
+    <input type="email" id="email" placeholder="Email" required>
+
+    <input type="text" id="phone" placeholder="Phone Number" required>
+    <label>Date of Birth:</label>
+    <input type="date" id="dob">
+    <!-- Gender -->
+    <div class="gender">
+      <label><input type="radio" name="gender" value="Male"> Male</label>
+      <label><input type="radio" name="gender" value="Female"> Female</label>
+    </div>
+
+    <!--company ka post k liye -->
+    <select id="qualification">
+      <option value="">Select qualification</option>
+      <option>M Tech</option>
+      <option>B Tech</option>
+      <option>12th Pass</option>
+      <option>10th Pass</option>
+    </select>
+
+    <!-- Skills kya hoga-->
+    <label>Skills:</label>
+    <input type="checkbox" value="HTML"> HTML
+    <input type="checkbox" value="CSS"> CSS
+    <input type="checkbox" value="JavaScript"> JavaScript
+    <input type="checkbox" value="Python"> Python
+
+    <!-- Resume upload krne k liye-->
+    <input type="file" id="resume">
+
+    <!-- extra information k liye-->
+    <textarea id="about" placeholder="Tell us about yourself"></textarea>
+
+    <button type="submit">Submit Application</button>
+
+  </form>
+</div>
+
+<script src="./form.js"></script>
+
+</body>
+</html>

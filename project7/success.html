@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Application Submitted</title>
+
+  <style>
+    body {
+      font-family: Arial;
+      background: #3f559e;
+      text-align: center;
+      padding-top: 100px;
+    }
+
+    .box {
+      background: linear-gradient(45deg, #3b1970 , transparent);
+      padding: 30px;
+      margin: auto;
+      width: 400px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(88, 46, 46, 0.2);
+    }
+
+    h2 {
+      color: rgb(198, 230, 198);
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="box">
+  <h2>✅ Application Submitted!</h2>
+  <p id="message"></p>
+</div>
+
+<script>
+  // Get name from URL
+  const params = new URLSearchParams(window.location.search);
+  const name = params.get("name");
+
+  document.getElementById("message").innerText =
+    "Thank you " + name + ", your application has been successfully submitted.";
+</script>
+
+</body>
+</html>
