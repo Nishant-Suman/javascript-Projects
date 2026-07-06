@@ -48,8 +48,3 @@ Replace **"Description of project X"** with actual names like:
 - Quiz App  
 
 ---
-
-If you want, I can also:
-✅ Auto-generate descriptions for all your 10 projects  
-✅ Add badges (cool GitHub look 🔥)  
-✅ Make it look like a **professional portfolio repo**
